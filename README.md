@@ -6,6 +6,7 @@ In this assignment, you will test the many time-series tools that you have learn
 You will gain proficiency in the following tasks:
 
 ## Time Series Forecasting
+The Following has been utilized in analysing historical data for the Yen:
 ### Linear Regression Modeling
 
 # Files
