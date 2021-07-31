@@ -21,7 +21,7 @@ Is the risk of the yen expected to increase or decrease?
 Based on the model evaluation, would you feel confident in using these models for trading?
 
 #Steps Taken
-Decomposition using a Hodrick-Prescott Filter (Decompose the Settle price into trend and noise).
-Forecasting Returns using an ARMA Model.
-Forecasting the Settle Price using an ARIMA Model.
-Forecasting Volatility with GARCH.
+1) Decomposition using a Hodrick-Prescott Filter (Decompose the Settle price into trend and noise).
+2) Forecasting Returns using an ARMA Model.
+3) Forecasting the Settle Price using an ARIMA Model.
+4) Forecasting Volatility with GARCH.
