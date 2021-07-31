@@ -13,3 +13,15 @@ Note: The starter code shows example calculations and figures to use as a guide.
 Time-Series Starter Notebook
 Linear Regression Starter Notebook
 Yen Data CSV File
+
+#Questions Asked
+
+Based on your time series analysis, would you buy the yen now?
+Is the risk of the yen expected to increase or decrease?
+Based on the model evaluation, would you feel confident in using these models for trading?
+
+#Steps Taken
+Decomposition using a Hodrick-Prescott Filter (Decompose the Settle price into trend and noise).
+Forecasting Returns using an ARMA Model.
+Forecasting the Settle Price using an ARIMA Model.
+Forecasting Volatility with GARCH.
