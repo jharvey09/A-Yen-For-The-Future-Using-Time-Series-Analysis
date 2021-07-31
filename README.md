@@ -33,4 +33,6 @@ ________________________________________________________________________________
 # Linear Regression Forecasting
 _________________________________________________________________________________________________________________________________________________________________________________
 
+# Conclusion
+In this particular model, The out of sample performed slightly better than the In-sample data. The Out-of-sample had a root mean squared error of 0.415, while the in-sample data has an RMSE of .596. From this data I would say the model has a "good" fit.
 
