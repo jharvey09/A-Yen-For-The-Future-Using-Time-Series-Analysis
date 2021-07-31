@@ -31,7 +31,10 @@ ________________________________________________________________________________
 4) Forecasting Volatility with GARCH.
 
 # Linear Regression Forecasting
-_________________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________________
+![Return Forecasting](https://user-images.githubusercontent.com/80294571/127749827-e794bc5a-d240-4e8d-8f6d-f59e5f77126f.png)
+
+
 
 # Conclusion
 In this particular model, The out of sample performed slightly better than the In-sample data. The Out-of-sample had a root mean squared error of 0.415, while the in-sample data has an RMSE of .596. From this data I would say the model has a "good" fit.
