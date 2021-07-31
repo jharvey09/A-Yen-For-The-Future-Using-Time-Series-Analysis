@@ -7,14 +7,14 @@ You will gain proficiency in the following tasks:
 Time Series Forecasting
 Linear Regression Modeling
 
-#Files
+# Files
 Use the following starter code to complete this assignment.
 Note: The starter code shows example calculations and figures to use as a guide. However, your actual output may differ depending on the code and data used.
 Time-Series Starter Notebook
 Linear Regression Starter Notebook
 Yen Data CSV File
 
-#Questions Asked
+# Questions Asked
 
 Based on your time series analysis, would you buy the yen now?
 Is the risk of the yen expected to increase or decrease?
