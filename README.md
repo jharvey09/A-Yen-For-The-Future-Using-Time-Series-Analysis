@@ -9,13 +9,26 @@ The Following has been utilized in analysing historical data for the Yen:
 2) ARMA Model
 3) ARIMA Model
 4) GARCH
+5) Scikit
 
 # Files
-Use the following starter code to complete this assignment.
 Note: The starter code shows example calculations and figures to use as a guide. However, your actual output may differ depending on the code and data used.
-Time-Series Starter Notebook
-Linear Regression Starter Notebook
-Yen Data CSV File
+1) Time-Series Starter Notebook
+2) Linear Regression Starter Notebook
+3) Yen Data CSV File
+
+# Linear Regression Forecasting
+1) Data Preparation (Creating Returns and Lagged Returns and splitting the data into training and testing data)
+2) Fitting a Linear Regression Model.
+3) Making predictions using the testing data.
+4) Out-of-sample performance.
+5) In-sample performance.
+
+Data Preparation (Creating Returns and Lagged Returns and splitting the data into training and testing data)
+Fitting a Linear Regression Model.
+Making predictions using the testing data.
+Out-of-sample performance.
+In-sample performance.
 
 # Questions Asked
 1) Based on your time series analysis, would you buy the yen now?
