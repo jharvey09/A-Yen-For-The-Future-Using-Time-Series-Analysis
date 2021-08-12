@@ -1,4 +1,4 @@
-# A Yen Into The Future Using Time Series Analysis
+# The Yen Vs US Dollar
 The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies. Hedge funds, too, are keenly interested in anything that will give them a consistent edge in predicting currency movements.
 We tested many time-series tools in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
 
@@ -11,7 +11,6 @@ The Following has been utilized in analysing historical data for the Yen:
 5) Scikit
 
 # Files
-Note: The starter code shows example calculations and figures to use as a guide. However, your actual output may differ depending on the code and data used.
 1) Time-Series Starter Notebook
 2) Linear Regression Starter Notebook
 3) Yen Data CSV File
@@ -22,12 +21,6 @@ Note: The starter code shows example calculations and figures to use as a guide.
 3) Making predictions using the testing data.
 4) Out-of-sample performance.
 5) In-sample performance.
-
-Data Preparation (Creating Returns and Lagged Returns and splitting the data into training and testing data)
-Fitting a Linear Regression Model.
-Making predictions using the testing data.
-Out-of-sample performance.
-In-sample performance.
 
 # Questions Asked
 1) Based on your time series analysis, would you buy the yen now?
