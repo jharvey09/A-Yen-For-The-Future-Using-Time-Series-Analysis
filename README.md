@@ -11,8 +11,8 @@ The Following has been utilized in analysing historical data for the Yen:
 5) Scikit
 
 # Files
-1) Time-Series Starter Notebook
-2) Linear Regression Starter Notebook
+1) Time-Series Notebook
+2) Linear Regression Notebook
 3) Yen Data CSV File
 
 # Linear Regression Forecasting
