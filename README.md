@@ -28,7 +28,7 @@ Below are the results of the ARMA model
 ![image](https://user-images.githubusercontent.com/80294571/130251115-912de563-cb65-480b-92dc-80a5c38cd241.png)
 In the above ARMA model, the autoregressive term has a p-value (.42) that is greater than the significance level of 0.05. 
 
-##### To return a plot forecast, use the folling code (Results listed below code:
+##### To return a plot forecast, use the following code (Results listed below code:
 pd.DataFrame(results.forecast(steps=5)[0]).plot(title="5 Day Returns Forecast")
 ![image](https://user-images.githubusercontent.com/80294571/130251669-30c21335-8ab6-45e7-9e8b-f07c524985f6.png)
 
