@@ -1,4 +1,4 @@
-# The Yen Vs US Dollar
+# A Tale Of Two (The Yen Vs US Dollar)
 ![image](https://user-images.githubusercontent.com/80294571/130246876-09f679b8-c0e9-41d1-9c36-1e3a9a48e909.png)
 
 
