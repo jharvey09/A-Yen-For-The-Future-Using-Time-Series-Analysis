@@ -5,7 +5,24 @@
 This project utilizes Time Series analysis, along with a Linear Regression model to forecast the price of the Japanese Yen vs. the US Dollar. ARMA, ARIMA, and GARCH forecasting models included, also using the decompisition of the Hodrick-Prescott filter. The In-Sample and Out-of-Sample performance metrics used to evaluate Linear Regression model.
 The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies. Hedge funds, too, are keenly interested in anything that will give them a consistent edge in predicting currency movements. 
 
-# Time Series Forecasting:
+## Table Of Contents:
+[Time Series Forecasting](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#time-series-forecasting)
+
+[Files](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#files)
+
+[Linear Regression Forcasting](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#linear-regression-forecasting)
+
+[Linear Regression Forecast Line Plot](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#linear-regression-forecasting-1)
+
+### Models:
+[ARMA Model](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#arma-model)
+
+[ARIMA Model](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#arima-model)
+
+[GARCH Model](https://github.com/jharvey09/A_Tale_of_Two__The_Yen_Versus_The_US_Dollar#garch-volitality-model)
+
+
+## Time Series Forecasting:
 The Following has been utilized in analysing historical data for the Yen:
 1) Hodrick-Prescott Filter
 2) ARMA Model
@@ -31,9 +48,9 @@ Below are the results of the ARMA model
 
 In the above ARMA model, the autoregressive term has a p-value (.42) that is greater than the significance level of 0.05. 
 
-##### To return a plot forecast, use the following code, results listed below code:
+###### To return a plot forecast, use the following code, results listed below code:
 
-*pd.DataFrame(results.forecast(steps=5)[0]).plot(title="5 Day Returns Forecast")*
+***pd.DataFrame(results.forecast(steps=5)[0]).plot(title="5 Day Returns Forecast")***
 
 ![image](https://user-images.githubusercontent.com/80294571/130251669-30c21335-8ab6-45e7-9e8b-f07c524985f6.png)
 
@@ -48,12 +65,12 @@ In the above ARIMA, the autoregressive term has a p-value (.65) that is greater 
 ![image](https://user-images.githubusercontent.com/80294571/130253326-92e6ce3e-d183-424a-a156-fc905658565a.png)
 
 
-# Files:
+## Files:
 1) Time-Series Notebook
 2) Linear Regression Notebook
 3) Yen Data CSV File
 
-# Linear Regression Forecasting:
+## Linear Regression Forecasting:
 1) Data Preparation *(Creating Returns and Lagged Returns and splitting the data into training and testing data)*
 2) Fitting a Linear Regression Model.
 3) Making predictions using the testing data.
@@ -78,7 +95,7 @@ Assembled actual y data *(Y_test)* with predicted y data into two columns in a d
 3) Forecasting the Settle Price using an ARIMA Model.
 4) Forecasting Volatility with GARCH.
 
-## Linear Regression Forecasting:
+### Linear Regression Forecasting Line Plot:
 ![image](https://user-images.githubusercontent.com/80294571/127751009-6bc924c5-dd76-4420-b5cc-cd17c1010a6c.png)
 
 
