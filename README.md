@@ -12,11 +12,11 @@ The Following has been utilized in analysing historical data for the Yen:
 3) ARIMA Model
 4) GARCH
 
-### Steps:
+#### Steps:
 The dataset contained the following data related to the Yen from 1990-2019:
 ![image](https://user-images.githubusercontent.com/80294571/130248857-42af45c3-c0ef-4bff-977e-0caa85346664.png)
 
-#### Decompisiton Using Hodrick-Prescott Filter:
+###### Decompisiton Using Hodrick-Prescott Filter:
 1.  Apply the Hodrick-Prescott Filter by decomposing the *"Settle"* price into two separate series
 2.  Create a dataframe of just the settle price, and add columns for *"Noise" and "Trend"* series
 3.  Plot the Settle Price vs. the Trend Price for 2015 to the present
@@ -43,7 +43,7 @@ In the above ARMA model, the autoregressive term has a p-value (.42) that is gre
 
 In the above ARIMA, the autoregressive term has a p-value (.65) that is greater than the significance level of 0.05. With both models showing a p-value higher than 0.05, we can conclude that the coefficient for the autoregressive term is **NOT** statistically significant, and should **NOT** be kept in the model.
 
-#### GARCH Model:
+#### GARCH Volitality Model:
 
 ![image](https://user-images.githubusercontent.com/80294571/130253326-92e6ce3e-d183-424a-a156-fc905658565a.png)
 
@@ -72,23 +72,19 @@ After splitting into Training and Testing data, I ran the Linear Regression mode
 Assembled actual y data *(Y_test)* with predicted y data into two columns in a dataframe
 
 
-# Questions Asked:
-1) Based on your time series analysis, would you buy the yen now?
-2) Is the risk of the yen expected to increase or decrease?
-3) Based on the model evaluation, would you feel confident in using these models for trading?
-
-# Steps Taken:
+### Steps Taken:
 1) Decomposition using a Hodrick-Prescott Filter *(Decompose the Settle price into trend and noise)*.
 2) Forecasting Returns using an ARMA Model.
 3) Forecasting the Settle Price using an ARIMA Model.
 4) Forecasting Volatility with GARCH.
 
-# Linear Regression Forecasting:
+## Linear Regression Forecasting:
 ![image](https://user-images.githubusercontent.com/80294571/127751009-6bc924c5-dd76-4420-b5cc-cd17c1010a6c.png)
 
 
 
+## Conclusion:
+When partaking in an analysis, I try to find three questions to conclude the findings. This project consisted of the use of *Time Series Analysis*,  with that my first question was ***Based on my _Time Series Analysis_, would I buy the Yen now?*** For me to conclude my findings, I would first need to ask myself, ***Is the risk of the Yen expected to increase or decrease?***  To come to my conclusion I could therefore use the evaluation based on the model. My final question would be ***Would I feel comfortable using these models for trading?*** 
 
-# Conclusion:
-In this particular model, The out of sample performed slightly better than the In-sample data. The Out-of-sample had a root mean squared error of 0.415, while the in-sample data has an RMSE of .596. From this data I would say the model has a "good" fit.
+With this model, *the out-of-sample* data performed slightly better than the *in-sample* data. The out-of-sample had a **Root Mean Squared Error_(RMSE)_** of **0.415**, while the in-sample data has a **Root Mean Squared Error_(RMSE)_** of **0.596**. With that said, my answer is yes! I would buy the Yen at the current rate. 
 
