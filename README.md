@@ -84,7 +84,7 @@ Assembled actual y data *(Y_test)* with predicted y data into two columns in a d
 
 
 ## Conclusion:
-When partaking in an analysis, I try to find three questions to conclude the findings. This project consisted of the use of *Time Series Analysis*,  with that my first question was Based on my _Time Series Analysis_, ***Would I buy the Yen now?*** For me to conclude my findings, I would first need to ask myself, ***Is the risk of the Yen expected to increase or decrease?***  To come to my conclusion I could therefore use the evaluation based on the model. My final question would be ***Would I feel comfortable using these models for trading?*** 
+When partaking in an analysis, I try to find three questions to conclude the findings. This project consisted of the use of *Time Series Analysis*,  with that my first question was Based on my _Time Series Analysis_, ***Would I buy the Yen now?*** For me to conclude my findings, I would first need to ask myself, ***Is the risk of the Yen expected to increase or decrease?***  To come to my conclusion I could therefore use the evaluation based on the model. My final question would be ***Would I feel comfortable using this model for trading?*** 
 
-With this model, *the out-of-sample* data performed slightly better than the *in-sample* data. The out-of-sample had a **Root Mean Squared Error_RMSE_** of **0.415**, while the in-sample data has a **Root Mean Squared Error_RMSE_** of **0.596**. With that said, my answer is yes! I would buy the Yen at the current rate. 
+With this model, *the out-of-sample* data performed slightly better than the *in-sample* data. The out-of-sample had a **Root Mean Squared Error(RMSE)** of ***0.415***, while the in-sample data has a **Root Mean Squared Error(RMSE)** of ***0.596***. With that said, my answer is yes! I would buy the Yen, knowing that the future rate would increase. 
 
